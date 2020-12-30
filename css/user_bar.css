@@ -1,0 +1,47 @@
+#header {
+	background-color: #2a3139;
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+}
+
+.leftDiv{
+	float: left;
+	margin-top: 3px;
+}
+
+.rightDiv{
+	margin: 0px 10px 0 0;
+	height: 60px;
+	float: right;
+}
+
+.rightDiv a:link {
+	color: #1a66ff;
+}
+
+.rightDiv a:visited {
+	color: #1a66ff;
+}
+
+#profilo {
+	color: white;
+}
+
+.rightDiv_item_0 {
+	background-image: url('./../css/img/down.png');
+	background-size: cover;
+	width: 16px;
+	height: 16px;
+}
+
+.logo {
+	width: 200px;
+}
+
+
+#header::after {
+  content: "";
+  clear: both;
+  display: table;
+}
